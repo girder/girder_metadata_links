@@ -32,7 +32,7 @@ setup(
     name='girder-metadata-links',
     packages=find_packages(exclude=['test', 'test.*']),
     url='https://github.com/girder/girder_metadata_links',
-    version='0.1.0',
+    version='0.2.0',
     zip_safe=False,
     entry_points={
         'girder.plugin': [
