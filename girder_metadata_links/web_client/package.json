@@ -8,5 +8,8 @@
     "girderPlugin": {
         "name": "girder_metadata_links",
         "main": "./main.js"
+    },
+    "peerDependencies": {
+        "@girder/core": "*"
     }
 }

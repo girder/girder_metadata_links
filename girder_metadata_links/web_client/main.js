@@ -1,7 +1,7 @@
-import { wrap } from 'girder/utilities/PluginUtils';
-import MetadataWidget from 'girder/views/widgets/MetadataWidget';
-import Folder from 'girder/models/FolderModel';
-import Item from 'girder/models/ItemModel';
+import { wrap } from '@girder/core/utilities/PluginUtils';
+import MetadataWidget from '@girder/core/views/widgets/MetadataWidget';
+import Folder from '@girder/core/models/FolderModel';
+import Item from '@girder/core/models/ItemModel';
 import template from './link.pug';
 
 wrap(MetadataWidget, 'render', function (render) {
