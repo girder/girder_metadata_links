@@ -23,7 +23,7 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6'
     ],
-    description='Renders hyperlinks from metadata values',
+    description='Renders hyperlinks to Girder resources from metadata values',
     install_requires=requirements,
     license='Apache Software License 2.0',
     long_description=readme,
